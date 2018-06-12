@@ -24,20 +24,20 @@ def prepare_test(test="", answer=None, middle_code="", show_code=None):
 
 
 TESTS = {
-    "First lamp": [
+    "1. First lamp": [
         prepare_test(middle_code='''lamp_1 = Lamp()
 lamp_1.light()''',
                      test="lamp_1.light()",
                      answer="Red")
     ],
-    "Second lamp": [
+    "2. Second lamp": [
         prepare_test(middle_code='''lamp_2 = Lamp()
 lamp_2.light()
 lamp_2.light()''',
                      test="lamp_2.light()",
                      answer="Blue")
     ],
-    "Third lamp": [
+    "3. Third lamp": [
         prepare_test(middle_code='''lamp_3 = Lamp()
 lamp_3.light()
 lamp_3.light()
@@ -45,7 +45,7 @@ lamp_3.light()''',
                      test="lamp_3.light()",
                      answer="Yellow")
     ],
-    "Fourth lamp": [
+    "4. Fourth lamp": [
         prepare_test(middle_code='''lamp_4 = Lamp()
 lamp_4.light()
 lamp_4.light()
